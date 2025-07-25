@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "httpx>=0.28.1",
     "questionary>=2.1.0",
     "requests>=2.32.4",
+    "rich>=14.1.0",
+    "term-image>=0.7.2",
     "typing>=3.10.0.0",
 ]
